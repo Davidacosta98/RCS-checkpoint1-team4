@@ -168,3 +168,26 @@ footer {
     margin-top: 10px;
     background-color: rgb(103, 14, 14);
 }
+/* Navbar */
+
+.navbar{
+    padding: 1.75rem;
+    /* background-color: rgb(240, 240, 240); */
+    background-color: #fcfcfc;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-image{
+    height: 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    padding: 1em;
+}
+
+.form-control{
+    margin-left: 1em;
+}
