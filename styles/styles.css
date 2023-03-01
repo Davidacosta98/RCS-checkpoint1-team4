@@ -191,3 +191,6 @@ footer {
 .form-control{
     margin-left: 1em;
 }
+input.form-control.me-2{
+    margin-bottom: 0;
+}
