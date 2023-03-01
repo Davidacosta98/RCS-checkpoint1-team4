@@ -5,13 +5,20 @@
     border: 0;
 }
 
+body{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 12vh;
+}
+
 /* .modified-general-conteiner{
     height: 50vh;
 } */
 
-/* .modified-button{
-    width: 5vw;
-} */
+.modified-button{
+    width: 2vw;
+}
 
 /* .modified-container-items{
     height: 100%;;
@@ -21,4 +28,25 @@
  width: 100vw;
  margin-left: 5vw;
  height: 100%;
+} */
+
+.modified-card-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 40vw;
+    height: 70vh;
+    transition: 200ms ease-out;
+}
+
+.card:hover{
+    transition: 200ms;
+    width: 47vw;
+    height: 77vh;
+}
+
+/* .card-img-top{
+    object-fit: contain;
 } */
