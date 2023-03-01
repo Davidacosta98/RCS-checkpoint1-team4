@@ -54,7 +54,6 @@ body {
    
 }
 
-
  
 .form-contact {
     background: #3E5151;  /* fallback for old browsers */
@@ -130,4 +129,42 @@ textarea {
 
 .button:hover {
 cursor: pointer;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.container-footer {
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;  
+}
+
+.contact-links {
+  display: flex;
+}
+
+.mail {
+  width: 30px;
+}
+
+.wp {
+  width: 26px;
+}
+
+.github {
+  width: 30px;
+}
+
+.copyrights p {
+    color: floralwhite;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgb(103, 14, 14);
 }
