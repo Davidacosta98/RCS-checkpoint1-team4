@@ -73,3 +73,69 @@ body{
 .form-control{
     margin-left: 1em;
 }
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items:baseline;
+    font-size: 20px;
+    margin-top: 50px;
+    height: 35px;
+    background: #3e5151; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #decba4,
+      #3e5151
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #decba4,
+      #3e5151
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 6px;
+    box-shadow: 20px 15px 20px #3e5151;
+    border: 2px solid black;
+  }
+  
+  .container-footer {
+    background: #3e5151; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #decba4,
+      #3e5151
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #decba4,
+      #3e5151
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 6px;
+    box-shadow: 25px 20px 25px #3e5151;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 60px;
+  }
+  
+  .contact-links {
+    display: flex;
+  }
+  
+  .mail {
+    width: 30px;
+  }
+  
+  .wp {
+    width: 26px;
+  }
+  
+  .github {
+    width: 30px;
+  }
+  
+  .copyrights p {
+    color: floralwhite;
+    font-size: 12px;
+    margin-top: 10px;
+  }
