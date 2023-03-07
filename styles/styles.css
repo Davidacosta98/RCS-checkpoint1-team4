@@ -19,6 +19,53 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 600px;
+  
+}
+
+
+.carousel-caption {
+ bottom: 200px;
+
+}
+
+
+.carousel-caption h2 {
+  font-size: 45px;
+  font-weight: bold;    
+  color: rgb(238, 238, 231);
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  letter-spacing: 6px;
+}
+
+.carousel-caption p {
+  width: 50%;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(238, 238, 231);
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  line-height: 1.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .card-section {
   display: flex;
   justify-content: space-around;
