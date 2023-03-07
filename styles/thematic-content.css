@@ -42,6 +42,7 @@
     width: 30vw;
     height: 40vh;
     object-fit: contain;
+<<<<<<< HEAD
 }
 
 .price{
@@ -171,3 +172,10 @@ footer {
   height: 600px;
   object-position:center;
 }
+=======
+} */
+
+.maps{
+    padding: 6rem;
+}
+>>>>>>> feat/maplocation
