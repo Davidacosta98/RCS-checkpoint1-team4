@@ -164,3 +164,10 @@ footer {
   flex-direction: column;
   padding: 10px;
 }
+
+.carousel-item video{
+  margin: 10px;
+  width: 100%;
+  height: 600px;
+  object-position:center;
+}
