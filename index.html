@@ -1,261 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Metadatos -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Grupo 4 Comisión 38i">
-    <meta name="description" content="Pagina de comidas">
-    <meta name="keywords" content="Tucuman, Comidas regionales, Argentina">
-    <!-- Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Stylesheet local-->
-    <link rel="stylesheet" href="styles/styles.css">
-    <!-- Title -->
-    <title>Emprendimiento-Comidas-Tradicionales</title>
-    <!-- Favicon -->
-    <link rel="icon" href="/assets/imagenes/Logo.png" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Stylesheet local-->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Tu sabor</title>
 </head>
+
 <body>
-    <header>
-        
-<!--    @Erika
-        NavBar
-        Logo ==> thematic content - free page -->
-         <!-- Barra de navegacion -->
-         <nav class="navbar navbar-expand-md navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="assets/images/Logo.png" class="logo-image" alt="Logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/thematic-content.html">Thematic content</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/free-page.html">Free page</a>
-                  </li>
-                  
-                  
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Que te gustaria probar?" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-           <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/images/comidas-argentinas-1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption gap-4">
-                  <h2>Bienvenidos a Tu Sabor</h2>
-                  <p>Pequeños Placeres de la Vida</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/images/comidas-argentinas-2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption gap-4">
-                  <h2>Comidas Argentinas Tradicionales</h2>
-                  <p>Sabores Inolvidables</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/images/comidas-argentinas-3.jpg" class="d-block w-100" alt="..."> 
-                <div class="carousel-caption gap-4">
-                  <h2>Vení a Conocernos</h2>
-                  <p>Te esperamos!</p>
-                </div>
-              </div>
-           </div>
-       
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-       </div>
+  <!--    @Erika
+NavBar
+Logo ==> thematic content - free page -->
+  <!-- Barra de navegacion -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/images/logo.png" class="logo-image" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/about-us.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/free-page.html">Wikifood</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Que te gustaria probar?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <main>
+    <!-- 
+            @pablo
+            Carousel 
+        -->
 
-        <section class="card-section">
-            <div class="card" style="width: 12rem;">
-                <img src="./assets/images/card-dma.jpg" class="card-img-top" alt="david">
-                <div class="card-body">
-                    <h2 class="card-title">David Martín Acosta</h2>
-                    <p class="card-text">
-                       Edad: 24 años. <br>
-                       Hobbie: ciclismo, deportes al aire libre.<br>
-                       Breve descripción: soy un apasionado por la tecnología, sobre todo con
-                       respecto a PCs de escritorio, me gusta hacer deportes al aire libre y tener contacto con la naturaleza,
-                       me gusta el ciclismo de montaña y el trekking. Actualmente trabajo en un centro de contacto y estoy 
-                       incursionando en el mundo de la programación web.
-                    </p>
+<!--carousell -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video width="640" height="360" autoplay loop
+      src="./assets/Videos/tamales carousell.mp4"></video>
+    </div>
+    <div class="carousel-item">
+      <video width="640" height="360" autoplay loop
+      src="./assets/Videos/especias carousell.mp4"></video>
+    </div>
+    <div class="carousel-item">
+      <video width="640" height="360" autoplay loop
+      src="./assets/Videos/parrilla carousell.mp4"></video>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <!--
+            @David
+            Our Products
+        -->
+
+    <div id="carouselExampleControls" class="carousel slide modified-general-conteiner" data-bs-ride="carousel">
+      <div class="carousel-inner modified-container-items">
+        <div class="carousel-item modified-item active">
+          <div class="modified-card-group">
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/humita.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Humita</h5>
+                <hr>
+                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura" de cebolla. Se cocina en olla y luego se le puede agregar un poco de queso cremoso en el plato.</p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$1789,90</p>
+                  </div> 
                 </div>
-            </div>  
-            <div class="card" style="width: 12rem;">
-                <img src="./assets/images/card-mbg.jpg" class="card-img-top" alt="belén">
-                <div class="card-body">
-                    <h2 class="card-title">María Belén Gómez</h2>
-                    <p class="card-text">
-                       Edad: 36 años. <br>
-                       Hobbie: viajar y la fotografía.<br>
-                       Breve descripción: me gusta salir de mi zona de confort, soy Lic. en Higiene y Seguridad,
-                       actualmente trabajo en una empresa como administrativa y estoy con un nuevo desafío estudiando programación web.
-                    </p>
-                </div>
-            </div>   
-            <div class="card" style="width: 12rem;">
-                <img src="./assets/images/card-pd.png" class="card-img-top" alt="pablo">
-                <div class="card-body">
-                    <h2 class="card-title">Pablo Díaz</h2>
-                    <p class="card-text">
-                       Edad: 44 años. <br>
-                       Hobbie: juego al paddle y me gusta ver series. <br>
-                       Breve descripción: soy un gastronómico aprendiendo del mundo de la programación.
-                    </p>
-                </div>
-            </div> 
-            <div class="card"style="width: 12rem;">
-                <img src="./assets/images/card-ejcv.jpg" class="card-img-top" alt="erika">
-                <div class="card-body">
-                    <h2 class="card-title">Erika Johana Cruz Vallejo</h2>
-                    <p class="card-text"> 
-                       Edad: 34 años <br>
-                       Hobbie: ciclismo, pasar tiempo con mis mascotas y viajar <br>
-                       Breve descripción: actualmente me encuentro trabajando en la guardia
-                       urbana de mi ciudad. Recientemente comencé a estudiar programación web, me encanta aprender cosas nuevas y 
-                       estoy emocionada por explorar nuevas oportunidades y deafios en este nuevo camino.
-                    </p>
-                </div>
-            </div> 
-            <div class="card" style="width: 12rem;">
-                <img src="./assets/images/card-bv.jpg" class="card-img-top" alt="bernardo">
-                <div class="card-body">
-                    <h2 class="card-title">Bernardo Villafañe</h2>
-                    <p class="card-text">
-                       Edad: 25 años. <br>
-                       Hobbie: leer, gimnasio, deportes y tecnología. <br>
-                       Breve descripción: soy una persona tranquila, disfruto mucho la tranquilidad.
-                       Trato de ser lo más responsable y disciplinado posible con todo. Tengo un trabajo de medio tiempo y 
-                       estudio derecho y marketing. Me gusta todo tipo de deportes y en mi tiempo libre leo.
-                    </p>
-                </div>
+              </div>
             </div>
-        </section>
-        <section class="form-contact">
-            <h3>Formulario de Contacto</h3>
-            <form>
-                <input class="controls" type="text" required="name" name="name" id="name" placeholder="Ingrese su Nombre">
-                <input class="controls" type="text" required="lastname" name="lastname" id="lastname" placeholder="Ingrese su Apellido">
-                <input class="controls" type="email" required="email" name="email" id="email" placeholder="Ingrese su Email">
-                <input class="controls " type="password" required="password" name="password" id="password" placeholder="Ingrese su Contraseña">
-                <input class="controls " type="phone" name="phone" id="phone" placeholder="Ingrese su Teléfono">
-                <textarea name="message" id="message" required="message" placeholder="Escriba aquí su mensaje"></textarea>
-                <input class="button" type="submit" value="Enviar">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <div class="cont-title">
-            <p>DEVELOPERS</p>
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/tamales.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Tamales</h5>
+                <hr>
+                <p class="card-text">El tamal se prepara generalmente a base de masa de maíz rellena de carnes, verduras y hortalizas, salsas y de otros ingredientes, los cuales se envuelven en hojas vegetales como de mazorca de maiz y se cuecen luego en agua o al vapor. Pueden tener un sabor dulce o salado. </p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$1567,50</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="container-footer">
-            <div class="contact-links">
-                <p>Belén Gómez</p>
-                <a href="mailto:gomezbelen86@gmail.com" target="_blank">
-                    <img class="mail"
-                        src="./assets/images/mail.png"
-                        alt="mail">
-                </a>
-                <a href="https://api.whatsapp.com/send/?phone=5493816839970" target="_blank">
-                    <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
-                </a>
-                <a href="https://github.com/Belugomez" target="_blank">
-                  <img class="github" src="./assets/images/github.png" alt="github">
-                </a>
+        <div class="carousel-item modified-item">
+          <div class="modified-card-group">
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/empanadas.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Empanadas</h5>
+                <hr>
+                <p class="card-text">Una empanada es una fina masa de pan rellena con una preparación salada generalmente y cocida al horno o frita. El relleno mayormente incluye carnes rojas o blancas. La masa es de harina de trigo, aunque también puede usarse harina de maíz u otros cereales, y suele llevar alguna grasa, aceite o manteca.</p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$990,30</p>
+                  </div> 
+                </div>
+              </div>
             </div>
-            <div class="contact-links">
-                <p>Erika Cruz Vallejo</p>
-                <a href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
-                    <img class="mail"
-                        src="./assets/images/mail.png"
-                        alt="mail">
-                </a>
-                <a href=" https://api.whatsapp.com/send/?phone=5493813014857" target="_blank">
-                    <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
-                </a>
-                <a href="https://github.com/ErikaCV" target="_blank">
-                    <img class="github" src="./assets/images/github.png" alt="github">
-                </a>
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/locro.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Locro</h5>
+                <hr>
+                <p class="card-text">El locro es una especie de guiso originario de Argentina, Perú, Chile, Ecuador, Bolivia y el suroccidente colombiano. En Argentina hay varios tipos clásicos de locro, aunque el más extendido y típico es de maíz blanco, porotos blancos, zapallo y productos cárnicos vacunos y porcinos. </p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$1645,90</p>
+                  </div> 
+                </div>
+              </div>
             </div>
-            <div class="contact-links">
-                <p>Bernardo Villafañe</p>
-                <a href="mailto:bernardovillafane11@gmail.com" target="_blank">
-                    <img class="mail"
-                        src="./assets/images/mail.png"
-                        alt="mail">
-                </a>
-                <a href=" https://api.whatsapp.com/send/?phone=5493865266647" target="_blank">
-                    <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
-                </a>
-                <a href="https://github.com/Berni011" target="_blank">
-                    <img class="github" src="./assets/images/github.png" alt="github">
-                </a>
-            </div>
-            <div class="contact-links">
-                <p>David Acosta</p>
-                <a href="mailto:David98.arg@gmail.com" target="_blank">
-                    <img class="mail"
-                        src="./assets/images/mail.png"
-                        alt="mail">
-                </a>
-                <a href=" https://api.whatsapp.com/send/?phone=5493815801381" target="_blank">
-                    <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
-                </a>
-                <a href="https://github.com/Davidacosta98" target="_blank">
-                    <img class="github" src="./assets/images/github.png" alt="github">
-                </a>
-            </div>
-            <div class="contact-links">
-                <p>Pablo Díaz</p>
-                <a href="mailto:correodipablo@gmail.com" target="_blank">
-                    <img class="mail"
-                        src="./assets/images/mail.png"
-                        alt="mail">
-                </a>
-                <a href=" https://api.whatsapp.com/send/?phone=5493815408181" target="_blank">
-                    <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
-                </a>
-                <a href="https://github.com/Dizpab" target="_blank">
-                    <img class="github" src="./assets/images/github.png" alt="github">
-                </a>
-            </div>
+          </div>
         </div>
-        <div class="copyrights">
-            <p>&#9400 copyright 2023-Todos los derechos reservados-Rolling Code-Team 4</p>
+        <div class="carousel-item modified-item">
+          <div class="modified-card-group">
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/humita-en-chala.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Humita en chala</h5>
+                <hr>
+                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura" de cebolla.</p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$1789,90</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="container-img">
+                <img src="./assets/images/carbonada-criolla.jpg" alt="Humita">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Carbonada criolla</h5>
+                <hr>
+                <p class="card-text">La carbonada es un plato típico del noroeste Argentino. Es realizado en una olla sobre un fogón de leña. Sus ingredientes son: trozos de zapallo, choclo, carne y batatas o papas, también puede llevar algunos granos de arroz. Se denomina carbonada ya que este guiso se cocina hasta que todos los leños del fogón quedan totalmente carbonizados.</p>
+                <div class="align-text-right">
+                  <div class="price">
+                    <p class="card-text">$2125,90</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>   
+      </div>
+      <button class="carousel-control-prev modified-button" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next modified-button" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>  
+
+    <!-- Map location -->
+    <div class="container d-flex flex-column align-items-center maps gap-4">
+      <h3>Donde encontrarnos</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1178820165455!2d-65.20926638598264!3d-26.836202683160543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e8d0271b7%3A0x7946062ac490db30!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1678132876935!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </main>
+
+    <!--     <footer>
+        Footer 
+        Icono perfiles GitHub 
+        Basic information about us   
+    </footer> -->
+
+  <footer>
+    <div class="cont-title">
+      <p>DEVELOPERS</p>
+    </div>
+    <div class="container-footer">
+      <div class="contact-links">
+        <p>Belén </p>
+        <a href="mailto:gomezbelen86@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=5493816839970" target="_blank">
+          <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
+        </a>
+        <a href="https://github.com/Belugomez" target="_blank">
+          <img class="github" src="./assets/images/github.png" alt="github">
+        </a>
+      </div>
+      <div class="contact-links">
+        <p>Erika</p>
+        <a href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a href=" https://api.whatsapp.com/send/?phone=5493813014857" target="_blank">
+          <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
+        </a>
+        <a href="https://github.com/ErikaCV" target="_blank">
+          <img class="github" src="./assets/images/github.png" alt="github">
+        </a>
+      </div>
+      <div class="contact-links">
+        <p>Bernardo</p>
+        <a href="mailto:bernardovillafane11@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a href=" https://api.whatsapp.com/send/?phone=5493865266647" target="_blank">
+          <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
+        </a>
+        <a href="https://github.com/Berni011" target="_blank">
+          <img class="github" src="./assets/images/github.png" alt="github">
+        </a>
+      </div>
+      <div class="contact-links">
+        <p>David</p>
+        <a href="mailto:David98.arg@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a href=" https://api.whatsapp.com/send/?phone=5493815801381" target="_blank">
+          <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
+        </a>
+        <a href="https://github.com/Davidacosta98" target="_blank">
+          <img class="github" src="./assets/images/github.png" alt="github">
+        </a>
+      </div>
+      <div class="contact-links">
+        <p>Pablo</p>
+        <a href="mailto:correodipablo@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a href=" https://api.whatsapp.com/send/?phone=5493815408181" target="_blank">
+          <img class="wp" src="./assets/images/wp.png" alt="whatsapp">
+        </a>
+        <a href="https://github.com/Dizpab" target="_blank">
+          <img class="github" src="./assets/images/github.png" alt="github">
+        </a>
+      </div>
+    </div>
+    <div class="copyrights">
+      <p>&#9400 copyright 2023-Todos los derechos reservados-Rolling Code-Team 4</p>
+    </div>
+  </footer>
+
 </body>
 
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+  integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </html>
