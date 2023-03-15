@@ -34,7 +34,7 @@ background-color: whitesmoke;
 .card-title {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  text-shadow: 3px 3px 3px #F37335;
+  /* text-shadow: 3px 3px 3px #F37335; */
 }
 
 .card-body {
