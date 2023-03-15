@@ -6,24 +6,9 @@
 }
 
 body {
-  background: #757f9a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #d7dde8,
-    #757f9a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #d7dde8,
-    #757f9a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: whitesmoke;
+
 }
-
-
-
-
-
-
 
 
 
@@ -37,30 +22,20 @@ body {
 .card-title {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  text-shadow: 3px 3px 3px beige;
+  text-shadow: 3px 3px 3px #F37335;
 }
 
 .card-body {
-  background: #3e5151; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color:rgb(238, 238, 231); 
   border-radius: 6px;
-  border: 1px solid black;
-  box-shadow: 10px 15px 10px #3e5151;
+  border: 2px solid #F37335;
+  box-shadow: 10px 15px 10px #F37335;
 }
 
 .card-img-top {
   border-radius: 2px;
-  border: 2px solid black;
-  box-shadow: 10px 15px 10px #3e5151;
+  border: 2px solid #F37335;
+  box-shadow: 10px 15px 10px #F37335;
 }
 
 .card-text {
@@ -68,6 +43,9 @@ body {
   font-size: 14px;
   border-radius: 2px;
 }
+
+
+
 
 .form-contact {
   background: #3e5151; /* fallback for old browsers */
