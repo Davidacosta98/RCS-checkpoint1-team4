@@ -20,9 +20,20 @@ body {
 }
 
 
+.container-description p {
+  background-color: rgb(238, 238, 231);
+  color:black;
+  border-radius: 20px;
+  border: 2px solid #f37335;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 50px 100px;
 
 
 
+
+
+}
 
 
 
