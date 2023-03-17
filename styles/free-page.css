@@ -13,6 +13,9 @@
     margin: auto;
     width: 100%;
 } */
+body{
+  background-color: whitesmoke;
+}
 
 .carousel-inner img {
   width: 100%;
@@ -47,11 +50,16 @@
   line-height: 1.9;
 }
 
+.card{
+  padding-top: 10px;
+    border:solid 2px #F37335;
+    background-color: rgb(238, 238, 231)
 
+}
 
-
-
-
+.card-title{
+  text-shadow: 3px 3px 3px #F37335;
+}
 
 .cards{
     display: flex;
@@ -62,6 +70,8 @@
     top: 30px;
     bottom: 30px;
 }
+
+
 .gif{
     position: relative; 
     top: 50px;
