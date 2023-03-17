@@ -1,0 +1,46 @@
+/* Navbar */
+
+.navbar {
+    padding: 1.75rem;
+    background-color: whitesmoke;
+
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-image{
+    height: 70px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    padding: 1em;
+}
+
+.form-control{
+    margin-left: 1em;
+}
+
+.btn-outline-success {
+  color: #f37335;
+  border-color: #f37335;
+}
+
+.btn-outline-success:hover {
+  background-color: #f37335;
+}
+
+/* login */
+.bg {
+    background-image: url(/assets/Images/emp-22.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .btn-secondary {
+    background-color: #f37335;
+  }
+  .btn-secondary:hover {
+    background-color: #e62e0d;
+  }
