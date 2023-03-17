@@ -322,7 +322,7 @@ footer {
 .navbar {
   padding: 1.75rem;
   /* background-color: rgb(240, 240, 240); */
-  background-color: #fcfcfc;
+  background-color: #f5f5f5;
 }
 
 .navbar-collapse {
@@ -331,7 +331,7 @@ footer {
 }
 
 .logo-image {
-  height: 50px;
+  height: 70px;
 }
 .navbar-expand-md .navbar-nav .nav-link {
   padding: 1em;
@@ -340,6 +340,16 @@ footer {
 .form-control {
   margin-left: 1em;
 }
+
+.btn-outline-success {
+  color: #f37335;
+  border-color: #f37335;
+}
+
+.btn-outline-success:hover {
+  background-color: #f37335;
+}
+
 input.form-control.me-2 {
   margin-bottom: 0;
 }
