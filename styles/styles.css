@@ -181,8 +181,31 @@ footer {
   object-position:center;
 }
 
+/* CSS screen smallers than 850 pixels */
+@media (max-width: 850px) {
+
+  .my-iframe {
+    width: 450px;
+    height: 350px;
+  } 
+
+}
+
+@media (max-width: 600px) {
+
+  .my-iframe {
+    width: 300px;
+    height: 250px;
+  } 
+
+}
+
 .maps{
     padding: 6rem;
+}
+
+.maps h3 {
+  text-decoration: underline;
 }
 
 
