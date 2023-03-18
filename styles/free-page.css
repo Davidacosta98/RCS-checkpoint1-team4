@@ -54,11 +54,16 @@ body{
   padding-top: 10px;
     border:solid 2px #F37335;
     background-color: rgb(238, 238, 231)
-
 }
 
-.card-title{
-  text-shadow: 3px 3px 3px #F37335;
+.card img{
+  height: 70%;
+}
+
+.btn{
+  background: #facf59;
+  background: -webkit-linear-gradient(to right, #f7095c, #facf59);
+  background: linear-gradient(to right, #f7905c, #facf59);
 }
 
 .cards{
