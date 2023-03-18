@@ -241,8 +241,8 @@ footer {
     #3e5151
   ); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 6px;
-  box-shadow: 10px 10px 20px #F37335;
-  border: 2px solid #F37335;
+  box-shadow: 10px 10px 20px #0b0b0b;
+  border: 2px solid #0e0e0e;
   background-color: whitesmoke;
 }
 
@@ -268,8 +268,8 @@ footer {
   ); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-color: whitesmoke;
   border-radius: 6px;
-  box-shadow: 10px 10px 20px #F37335;
-  border: 2px solid #F37335;
+  box-shadow: 10px 10px 20px #101010;
+  border: 2px solid #171616;
   display: flex;
   justify-content: space-between;
   padding: 2px;
@@ -292,15 +292,15 @@ footer {
 }
 
 .mail {
-  width: 30px;
+  width: 20px;
 }
 
 .wp {
-  width: 26px;
+  width: 20px;
 }
 
 .github {
-  width: 30px;
+  width: 20px;
 }
 
 .contact-links p{
