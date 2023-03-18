@@ -21,6 +21,31 @@ body {
 
 
 
+.accordion-button {
+  background: #facf59;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7905c, #facf59);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7905c, #facf59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 3px solid #F37335;
+}
+
+
+.accordion-body {
+  background-color:rgb(238, 238, 231) ;
+  border-bottom: 1px solid gray;
+
+}
+
+
+.container-description p {
+    font-size: 15px;
+    color:black;
+    border: 1px solid #F37335;
+    padding: 10px 20px; 
+    text-align: center;
+}
+
+
+
 
 
 
