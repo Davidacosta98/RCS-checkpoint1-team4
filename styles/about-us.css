@@ -9,6 +9,7 @@ body {
   background-color: whitesmoke;
 }
 
+
 /*
 .container-description p {
   background-color: rgb(238, 238, 231);
@@ -18,9 +19,6 @@ body {
   padding: 10px 20px;
   font-size: 1.2em;
   margin: 50px 100px;
-}
-
-.container-cards-animation {
 }
 */
 
@@ -70,9 +68,7 @@ body {
 
 
 
-
-
-.card-section {
+.container-cards-animation {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
