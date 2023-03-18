@@ -117,92 +117,50 @@ body{
   background-color: #f37335;
 }
 
-footer {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  align-items:baseline;
-  font-size: 15px;
-  margin-top: 50px;
-  height: 35px;
-  /* background: #3e5151;  *//* fallback for old browsers */
-  /*   background: -webkit-linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); */ /* Chrome 10-25, Safari 5.1-6 */
-  /*   background: linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 6px;
-  box-shadow: 10px 10px 20px #F37335;
-  border: 2px solid #F37335;
-  background-color: whitesmoke;
-}
-
-.cont-title {
-  /* text-shadow: 3px 3px 3px #F37335; */
-  display: flex;
-  flex-direction: column;
-  padding-top: 5px;
-  font-weight: bold;
-}
-
 .container-footer {
-/*   background: #3e5151;  *//* fallback for old browsers */
-/*   background: -webkit-linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); */ /* Chrome 10-25, Safari 5.1-6 */
-/*   background: linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-color: whitesmoke;
-  border-radius: 6px;
-  box-shadow: 10px 10px 20px #F37335;
-  border: 2px solid #F37335;
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 2px;
   height: 60px;
 }
 
-.profile-title{
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 20px;
-  width: 8vw;
-}
-
 .contact-links {
-  /* text-shadow: 3px 3px 3px #F37335; */
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .mail {
-  width: 30px;
+  width: 20px;
 }
 
 .wp {
-  width: 26px;
+  width: 20px;
 }
 
 .github {
-  width: 30px;
+  width: 20px;
 }
 
-.contact-links p{
+.contact-links p {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 12px;
+  font-size: 14px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.footer-separator {
+  margin-top: 100px;
+  margin-bottom: 2%;
+  opacity: 1;
+}
+
+.bottom-separator {
+  opacity: 1;
 }
 
 .copyrights p {
@@ -210,5 +168,8 @@ footer {
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 0%;
 }
