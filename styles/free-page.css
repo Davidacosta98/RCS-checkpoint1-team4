@@ -117,59 +117,22 @@ body{
   background-color: #f37335;
 }
 
-.container-footer {
-  background-color: rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2px;
-  height: 60px;
+footer {
+  margin-top: 10%;
 }
 
-.contact-links {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footer-title {
+  color: orange;
 }
 
-.mail {
-  width: 20px;
+.github{
+  width: 33px;
 }
 
 .wp {
-  width: 20px;
+  width: 35px;
 }
 
-.github {
-  width: 20px;
-}
-
-.contact-links p {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 12px;
-  font-size: 14px;
-  padding: 2px;
-  font-weight: bold;
-}
-
-.footer-separator {
-  margin-top: 100px;
-  margin-bottom: 2%;
-  opacity: 1;
-}
-
-.bottom-separator {
-  opacity: 1;
-}
-
-.copyrights p {
-  color: black;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 0%;
+.mail {
+  width: 32px;
 }
