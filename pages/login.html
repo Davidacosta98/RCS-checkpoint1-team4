@@ -46,7 +46,7 @@ Logo ==> thematic content - free page -->
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué te gustaría probar?" aria-label="Search">
+                    <input class="  form-control me-2" type="search" placeholder="¿Qué te gustaría probar?" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
@@ -61,7 +61,7 @@ Logo ==> thematic content - free page -->
       <div class="col bg-white p-5 rounded-end">
         <div class="text-end">
           <img
-            src="/assets/Images/logo2.png" width="180" height="100"
+            src="../assets/images/logo-sin-fondo.png"  width="200" height="120"
           />
         </div>
 
@@ -93,7 +93,7 @@ Logo ==> thematic content - free page -->
                   required
                 />
               </div>
-              <p class="text-center"> ¿Olvidaste tu clave? <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Recuperar contraseña</a></p>
+              <p class="text-center"> ¿Olvidaste tu clave? <a href="/pages/sitio-en-construccion.html" ">Recuperar contraseña</a></p>
               <!-- checkbox -->
 
               <div class="mb-4 form-check">
@@ -114,8 +114,7 @@ Logo ==> thematic content - free page -->
               </div>
 
               <div class="my-3">
-                <p class="text-center">¿No tienes cuenta? <a href="./suscribe.html">Registrate</a></p
-                >
+                <p class="text-center">¿No tienes cuenta? <a href="#" data-bs-target="#suscribirseModal" data-bs-toggle="modal">Registrate</a></p>
               </div>
             </form>
             <!-- login RR.SS -->
@@ -165,6 +164,89 @@ Logo ==> thematic content - free page -->
   </div>
     </div>
   </main>
+   <!-- modal -->
+   <div
+   class="modal fade"
+   id="suscribirseModal"
+   tabindex="-1"
+   aria-labelledby="suscribirseModalLabel"
+   aria-hidden="true"
+ >
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h2 class="modal-title fs-5" id="suscribirseModalLabel">
+           Registrate ahora!
+         </h2>
+         <button
+           type="button"
+           class="btn-close"
+           data-bs-dismiss="modal"
+           aria-label="Close"
+         ></button>
+       </div>
+       <div class="modal-body">
+         <form class="needs-validation" action="error404.html">
+           <div div class="mb-3">
+             <label for="modalSuscribirseNombre" class="form-label"
+               >Nombre y Apellido</label
+             >
+             <input
+               type="text"
+               maxlength="25"
+               class="form-control"
+               id="modalSuscribirseNombre"
+               aria-describedby="nombreApellido"
+               placeholder="Ana Rodrigez"
+               required
+             />
+           </div>
+           <div class="mb-3">
+             <label for="modalInputEmail1" class="form-label"
+               >Email</label
+             >
+             <input
+               type="email"
+               class="form-control"
+               id="modalInputEmail1"
+               aria-describedby="emailHelp"
+               maxlength="25"
+               placeholder="Anarodriguez@gmail.com"
+               required
+             />
+           </div>
+           <div class="mb-3">
+             <label for="modalInputPassword1" class="form-label"
+               >Password</label
+             >
+             <input
+               type="password"
+               class="form-control"
+               maxlength="8"
+               id="modalInputPassword1"
+               placeholder="AnaG1*"
+               required
+             />
+           </div>
+           <div class="mb-3 form-check">
+             <input
+               type="checkbox"
+               class="form-check-input"
+               id="modalCheck1"
+               required
+             />
+             <label class="form-check-label" for="modalCheck1"
+               >acepto <a href="">terminos y condiciones</a></label
+             >
+           </div>
+           <button type="submit" class="btn btn-dark">
+             registrarse
+           </button>
+         </form>
+       </div>
+     </div>
+   </div>
+ </div>
   <footer>
     <div class="row p-5 pb-1 bg-dark text-white">
         <div class="col-xs-12 col-md-6 col-lg-2">

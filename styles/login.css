@@ -9,7 +9,7 @@ body{
 /* Navbar */
 
 .navbar {
-    /* padding: 1.75rem; */
+     /* padding: 1.75rem;  */
     background-color: whitesmoke;
     width: 100%;
     position: fixed;
@@ -30,11 +30,6 @@ body{
     padding: 1em;
 }
 
-.form-control{
-    margin-left: 1em;
-    width: 230px;
-}
-
 .btn-outline-success {
   color: #f37335;
   border-color: #f37335;
@@ -43,6 +38,15 @@ body{
 .btn-outline-success:hover {
   background-color: #f37335;
 }
+.form-control.me-2 {
+  margin-left: 1em;
+ width: 230px; 
+}
+input.form-control.me-2 {
+  margin-bottom: 0;
+}
+
+
 
 /* login */
 .bg {
@@ -56,6 +60,19 @@ body{
   }
   .btn-secondary:hover {
     background-color: #e62e0d;
+  }
+
+  .modal-body input {
+    margin-left: 0;
+  }
+   .bg-white{
+    background-image: linear-gradient(to bottom right, #bdc0c2, #9a9c96);
+    background-color: #c8cfd6;  
+  }
+
+  .modal-content {
+    background-image: linear-gradient(to bottom right, #bdc0c2, #9a9c96);
+    background-color: #c8cfd6; 
   }
 
   footer {

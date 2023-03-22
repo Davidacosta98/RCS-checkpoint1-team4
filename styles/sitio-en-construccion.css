@@ -1,0 +1,34 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background: url(poster.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mi-video {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 15em;
+    color: aliceblue;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana gráfica */
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%; /* Posiciona el video a la mitad de la ventana gráfica */
+    left: 50%; /* Posiciona el video a la mitad de la ventana gráfica */
+    transform: translate(-50%, -50%); /* Centra el video en la ventana gráfica */
+}
+  
+.page-container {
+    overflow: hidden; /* Desactiva el scroll vertical y horizontal */
+}
