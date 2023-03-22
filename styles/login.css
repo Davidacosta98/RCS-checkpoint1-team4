@@ -44,6 +44,10 @@ body{
   background-color: #f37335;
 }
 
+.nav-item:hover {
+  background-color: #f37335;
+}
+
 /* login */
 .bg {
     background-image: url(/assets/Images/emp-22.jpg);
@@ -57,6 +61,8 @@ body{
   .btn-secondary:hover {
     background-color: #e62e0d;
   }
+  
+  .fw-bold
 
   footer {
     margin-top: 5%;
