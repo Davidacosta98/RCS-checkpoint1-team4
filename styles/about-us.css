@@ -26,41 +26,44 @@ body {
 
 
 .accordion-body {
-  background-color:rgb(238, 238, 231) ;
+  background-color: rgb(238, 238, 231);
   border-bottom: 1px solid gray;
 
 }
 
 
 .container-description p {
-    font-size: 20px;
-    color:black;
-    border: 1px solid #F37335;
-    padding: 10px 20px; 
-    text-align: center;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #F37335;
+  padding: 10px 20px;
+  text-align: center;
 }
 
 
-  
-.accordion-button div{
+
+.accordion-button div {
   width: 100%;
   text-align: center;
   font-size: 20px;
 
 }
 
-.accordion-button{
-  background: #c21500;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.accordion-button {
+  background: #c21500;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc500, #c21500);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
   box-shadow: none;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   color: white;
 }
 
@@ -122,17 +125,16 @@ body {
 
 .card-dev .back {
   transform: perspective(600px) rotateY(180deg);
-  background: #facf59; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f7905c,
-    #facf59
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f7905c,
-    #facf59
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #facf59;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #f7905c,
+      #facf59);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #f7905c,
+      #facf59);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 10px;
   color: black;
   text-align: center;
@@ -175,14 +177,14 @@ body {
   margin-top: 80px;
 }
 
-@media (max-width:480px){
-  .form-contact{
+@media (max-width:480px) {
+  .form-contact {
     width: 100%;
   }
 }
 
 .controls {
-  
+
   font-size: 15px;
   background-color: whitesmoke;
   width: 100%;
@@ -208,7 +210,7 @@ body {
 
 input,
 textarea {
-  
+
   font-size: 15px;
   width: 100%;
   margin-bottom: 30px;
@@ -224,18 +226,18 @@ textarea {
   max-height: 200px;
   max-width: 100%;
 }
+
 .button {
-  background: #facf59; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f7905c,
-    #facf59
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f7905c,
-    #facf59
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #facf59;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #f7905c,
+      #facf59);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #f7905c,
+      #facf59);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 2px solid #f37335;
   padding: 10px;
   color: black;
@@ -245,7 +247,7 @@ textarea {
 
 
 .button:hover {
-  background:#F37335 ;
+  background: #F37335;
   cursor: pointer;
 }
 
@@ -270,6 +272,7 @@ textarea {
 .logo-image {
   height: 70px;
 }
+
 .navbar-expand-md .navbar-nav .nav-link {
   padding: 1em;
 }
@@ -306,7 +309,7 @@ footer {
   color: orange;
 }
 
-.github{
+.github {
   width: 33px;
 }
 

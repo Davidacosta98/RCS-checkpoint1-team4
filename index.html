@@ -15,17 +15,17 @@
   <!-- Fonts Title -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
   <!-- Stylesheet local -->
   <link rel="stylesheet" href="./styles/styles.css">
-  <title>Tu sabor</title>
+  <!-- Favicon -->
+  <link rel="icon" type="png" href="assets/images/icon.png">
+  <title>Tu sabor -  Comidas Tradicionales</title>
 </head>
 
 <body>
-  <!--    @Erika
-NavBar
-Logo ==> thematic content - free page -->
-  <!-- Barra de navegacion -->
+  <!-- @Erika NavBar -->
+  <!-- Navigation bar -->
   <header>
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
@@ -45,7 +45,8 @@ Logo ==> thematic content - free page -->
               <a class="nav-link active text-white" aria-current="page" href="./pages/free-page.html">Wikifood</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="./pages/login.html">Iniciar sesión<nav></nav></a>
+              <a class="nav-link active text-white" aria-current="page" href="./pages/login.html">Iniciar sesión<nav>
+                </nav></a>
             </li>
           </ul>
           <form class="d-flex">
@@ -58,47 +59,41 @@ Logo ==> thematic content - free page -->
   </header>
 
   <main>
-    <!-- 
-            @pablo
-            Carousel 
-        -->
-
-<!--carousell -->
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <video width="640" height="360" autoplay muted loop
-      src="./assets/Videos/tamales carousell.mp4"></video>
+    <!-- @pablo Carousell -->
+    <!-- Carousell -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video width="640" height="360" autoplay muted loop src="./assets/Videos/tamales carousell.mp4"></video>
+        </div>
+        <div class="carousel-item">
+          <video width="640" height="360" autoplay muted loop src="./assets/Videos/especias carousell.mp4"></video>
+        </div>
+        <div class="carousel-item">
+          <video width="640" height="360" autoplay muted loop src="./assets/Videos/parrilla carousell.mp4"></video>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <video width="640" height="360" autoplay muted loop
-      src="./assets/Videos/especias carousell.mp4"></video>
-    </div>
-    <div class="carousel-item">
-      <video width="640" height="360" autoplay muted loop
-      src="./assets/Videos/parrilla carousell.mp4"></video>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-    <!--
-            @David
-            Our Products
-        -->
-
+    <!-- @David Our Products -->
     <div id="carouselExampleControls" class="carousel slide modified-general-conteiner" data-bs-ride="carousel">
       <div class="carousel-inner modified-container-items">
         <div class="carousel-item modified-item active">
@@ -110,12 +105,14 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Humita</h5>
                 <hr>
-                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura" de cebolla. Se cocina en olla y luego se le puede agregar un poco de queso cremoso en el plato.</p>
+                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo
+                  hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura"
+                  de cebolla. Se cocina en olla y luego se le puede agregar un poco de queso cremoso en el plato.</p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$1789,90</p>
-                </div> 
+                </div>
               </div>
             </div>
             <div class="card">
@@ -125,12 +122,14 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Tamales</h5>
                 <hr>
-                <p class="card-text">El tamal se prepara generalmente a base de masa de maíz rellena de carnes, verduras y hortalizas, salsas y de otros ingredientes, los cuales se envuelven en hojas vegetales como de mazorca de maiz y se cuecen luego en agua o al vapor. Pueden tener un sabor dulce o salado. </p>
+                <p class="card-text">El tamal se prepara generalmente a base de masa de maíz rellena de carnes, verduras
+                  y hortalizas, salsas y de otros ingredientes, los cuales se envuelven en hojas vegetales como de
+                  mazorca de maiz y se cuecen luego en agua o al vapor. Pueden tener un sabor dulce o salado. </p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$1567,50</p>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
@@ -144,12 +143,15 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Empanadas</h5>
                 <hr>
-                <p class="card-text">Una empanada es una fina masa de pan rellena con una preparación salada generalmente y cocida al horno o frita. El relleno mayormente incluye carnes rojas o blancas. La masa es de harina de trigo, aunque también puede usarse harina de maíz u otros cereales, y suele llevar alguna grasa, aceite o manteca.</p>
+                <p class="card-text">Una empanada es una fina masa de pan rellena con una preparación salada
+                  generalmente y cocida al horno o frita. El relleno mayormente incluye carnes rojas o blancas. La masa
+                  es de harina de trigo, aunque también puede usarse harina de maíz u otros cereales, y suele llevar
+                  alguna grasa, aceite o manteca.</p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$990,30</p>
-                </div> 
+                </div>
               </div>
             </div>
             <div class="card">
@@ -159,12 +161,15 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Locro</h5>
                 <hr>
-                <p class="card-text">El locro es una especie de guiso originario de Argentina, Perú, Chile, Ecuador, Bolivia y el suroccidente colombiano. En Argentina hay varios tipos clásicos de locro, aunque el más extendido y típico es de maíz blanco, porotos blancos, zapallo y productos cárnicos vacunos y porcinos. </p>
+                <p class="card-text">El locro es una especie de guiso originario de Argentina, Perú, Chile, Ecuador,
+                  Bolivia y el suroccidente colombiano. En Argentina hay varios tipos clásicos de locro, aunque el más
+                  extendido y típico es de maíz blanco, porotos blancos, zapallo y productos cárnicos vacunos y
+                  porcinos. </p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$1645,90</p>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
@@ -178,12 +183,14 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Humita en chala</h5>
                 <hr>
-                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura" de cebolla.</p>
+                <p class="card-text">La humita es una comida basada en maíz, se prepara rallando los granos del choclo
+                  hasta obtener una crema pastosa, la cual puede mezclarse con zapallo, luego se le agrega una "fritura"
+                  de cebolla.</p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$1789,90</p>
-                </div> 
+                </div>
               </div>
             </div>
             <div class="card">
@@ -193,12 +200,15 @@ Logo ==> thematic content - free page -->
               <div class="card-body">
                 <h5 class="card-title">Carbonada criolla</h5>
                 <hr>
-                <p class="card-text">La carbonada es un plato típico del noroeste Argentino. Es realizado en una olla sobre un fogón de leña. Sus ingredientes son: trozos de zapallo, choclo, carne y batatas o papas, también puede llevar algunos granos de arroz. Se denomina carbonada ya que este guiso se cocina hasta que todos los leños del fogón quedan totalmente carbonizados.</p>
+                <p class="card-text">La carbonada es un plato típico del noroeste Argentino. Es realizado en una olla
+                  sobre un fogón de leña. Sus ingredientes son: trozos de zapallo, choclo, carne y batatas o papas,
+                  también puede llevar algunos granos de arroz. Se denomina carbonada ya que este guiso se cocina hasta
+                  que todos los leños del fogón quedan totalmente carbonizados.</p>
               </div>
               <div class="align-text-right">
                 <div class="price">
                   <p class="card-text">$2125,90</p>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
@@ -214,101 +224,99 @@ Logo ==> thematic content - free page -->
         <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>  
+    </div>
 
     <!-- Map location -->
     <div class="container d-flex flex-column align-items-center maps gap-4">
       <h3>Donde encontrarnos</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1178820165455!2d-65.20926638598264!3d-26.836202683160543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e8d0271b7%3A0x7946062ac490db30!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1678132876935!5m2!1ses!2sar" class="my-iframe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1178820165455!2d-65.20926638598264!3d-26.836202683160543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e8d0271b7%3A0x7946062ac490db30!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1678132876935!5m2!1ses!2sar"
+        class="my-iframe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
   </main>
 
-    <!--     <footer>
+  <!--  
         Footer 
-        Icono perfiles GitHub 
-        Basic information about us   
-    </footer> -->
+        profiles icons GitHub 
+        Basic information about us  
+  -->
 
-    <footer>
-      <div class="row p-5 pb-1 bg-dark text-white">
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <div class="footer-title">
-                  <p class="h2">Tu Sabor Team</p>
-              </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Erika Cruz Vallejo</p>
-              <a class="text-decoration-none" href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
-                  <img class="mail" src="./assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493813014857"
-                  target="_blank">
-                  <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/ErikaCV" target="_blank">
-                  <img class="github" src="./assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Belén Gómez</p>
-              <a class="text-decoration-none" href="mailto:gomezbelen86@gmail.com" target="_blank">
-                  <img class="mail" src="./assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493816839970"
-                  target="_blank">
-                  <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Belugomez" target="_blank">
-                  <img class="github" src="./assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">David Acosta</p>
-              <a class="text-decoration-none" href="mailto:David98.arg@gmail.com" target="_blank">
-                  <img class="mail" src="./assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493815801381"
-                  target="_blank">
-                  <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Davidacosta98" target="_blank">
-                  <img class="github" src="./assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Bernardo Villafañe</p>
-              <a class="text-decoration-none" href="mailto:bernardovillafane11@gmail.com" target="_blank">
-                  <img class="mail" src="./assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493865266647"
-                  target="_blank">
-                  <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Berni011" target="_blank">
-                  <img class="github" src="./assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <div class="container-dev">
-                  <p class="h5">Pablo Díaz</p>
-                  <a class="text-decoration-none" href="mailto:correodipablo@gmail.com" target="_blank">
-                      <img class="mail" src="./assets/images/mail.png" alt="mail">
-                  </a>
-                  <a class="text-decoration-none" href=" https://api.whatsapp.com/send/?phone=5493815408181"
-                      target="_blank">
-                      <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
-                  </a>
-                  <a class="text-decoration-none" href="https://github.com/Dizpab" target="_blank">
-                      <img class="github" src="./assets/images/github-orange.png" alt="github">
-                  </a>
-              </div>
-          </div>
-          <div class="pt-5 col-xs-12">
-              <p class="h7 text-secondary text-center">&#9400 copyright 2023-Todos los derechos reservados-Rolling
-                  Code-Team 4</p>
-          </div>
+  <footer>
+    <div class="row p-5 pb-1 bg-dark text-white">
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <div class="footer-title">
+          <p class="h2">Tu Sabor Team</p>
+        </div>
       </div>
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <p class="h5">Erika Cruz Vallejo</p>
+        <a class="text-decoration-none" href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493813014857" target="_blank">
+          <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+        <a class="text-decoration-none" href="https://github.com/ErikaCV" target="_blank">
+          <img class="github" src="./assets/images/github-orange.png" alt="github">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <p class="h5">Belén Gómez</p>
+        <a class="text-decoration-none" href="mailto:gomezbelen86@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493816839970" target="_blank">
+          <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+        <a class="text-decoration-none" href="https://github.com/Belugomez" target="_blank">
+          <img class="github" src="./assets/images/github-orange.png" alt="github">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <p class="h5">David Acosta</p>
+        <a class="text-decoration-none" href="mailto:David98.arg@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493815801381" target="_blank">
+          <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+        <a class="text-decoration-none" href="https://github.com/Davidacosta98" target="_blank">
+          <img class="github" src="./assets/images/github-orange.png" alt="github">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <p class="h5">Bernardo Villafañe</p>
+        <a class="text-decoration-none" href="mailto:bernardovillafane11@gmail.com" target="_blank">
+          <img class="mail" src="./assets/images/mail.png" alt="mail">
+        </a>
+        <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493865266647" target="_blank">
+          <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+        <a class="text-decoration-none" href="https://github.com/Berni011" target="_blank">
+          <img class="github" src="./assets/images/github-orange.png" alt="github">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-2">
+        <div class="container-dev">
+          <p class="h5">Pablo Díaz</p>
+          <a class="text-decoration-none" href="mailto:correodipablo@gmail.com" target="_blank">
+            <img class="mail" src="./assets/images/mail.png" alt="mail">
+          </a>
+          <a class="text-decoration-none" href=" https://api.whatsapp.com/send/?phone=5493815408181" target="_blank">
+            <img class="wp" src="./assets/images/whatsapp.png" alt="whatsapp">
+          </a>
+          <a class="text-decoration-none" href="https://github.com/Dizpab" target="_blank">
+            <img class="github" src="./assets/images/github-orange.png" alt="github">
+          </a>
+        </div>
+      </div>
+      <div class="pt-5 col-xs-12">
+        <p class="h7 text-secondary text-center">&#9400 copyright 2023-Todos los derechos reservados-Rolling
+          Code-Team 4</p>
+      </div>
+    </div>
   </footer>
 
 </body>

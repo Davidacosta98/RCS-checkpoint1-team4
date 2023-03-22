@@ -2,154 +2,167 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-      <!-- Fonts Body-text -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <!-- Fonts Title -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!-- Fonts Body-text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Fonts Title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <!-- Stylesheet local -->
     <link rel="stylesheet" href="../styles/free-page.css" />
-  <title>Tu sabor</title>
+    <!-- Favicon -->
+    <link rel="icon" type="png" href="../assets/images/icon.png">
+    <title>Recomendación de la semana - Tu sabor</title>
 </head>
 
 <body>
-         <!--    @Erika
-NavBar
-Logo ==> thematic content - free page -->
-<!-- Barra de navegacion -->
-<header>
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/logo-sin-fondo.png" class="logo-image" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="about-us.html">Sobre nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="free-page.html">Wikifood</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active text-white" aria-current="page" href="../pages/login.html">Iniciar sesión<nav></nav></a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué te gustaría probar?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+    <!-- @Erika NavBar -->
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/images/logo-sin-fondo.png" class="logo-image" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="about-us.html">Sobre
+                                nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="free-page.html">Wikifood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="../pages/login.html">Iniciar
+                                sesión<nav></nav></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué te gustaría probar?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Week recommendation -->
+    <h1>Recomendación de la Semana</h1>
+    <h3>Asado</h3>
+    <img src="../assets/images/parrilla-argentina-1-pqgnc4wk45rp4a6qt6le1mohlb05ztc7wsz7qllxs0.jpg" alt=""
+        class="imgpages" /> <br>
+    <p>
+        Descripcion del Plato : En la mayoría de los casos se realiza a base de carne vacuna. Los cortes más utilizados
+        son
+        el asado de tira y el vacío. Pero siempre acompañados de achuras: mollejas, chinchulines, riñones, morcillas y
+        chorizos, todo sobre la parrilla caliente por las brazas.
+    </p>
+    <div class="boton">
+        <a href="./free-page.html"><button type="button"
+                class="btn btn-secondary btn-sm btn-modified">Volver</button></a>
+        <a href="./historia.html"><button type="button"
+                class="btn btn-secondary btn-sm btn-modified">Historia</button></a>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="row p-5 pb-1 bg-dark text-white">
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <div class="footer-title">
+                    <p class="h2">Tu Sabor Team</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <p class="h5">Erika Cruz Vallejo</p>
+                <a class="text-decoration-none" href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
+                    <img class="mail" src="../assets/images/mail.png" alt="mail">
+                </a>
+                <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493813014857"
+                    target="_blank">
+                    <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a class="text-decoration-none" href="https://github.com/ErikaCV" target="_blank">
+                    <img class="github" src="../assets/images/github-orange.png" alt="github">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <p class="h5">Belén Gómez</p>
+                <a class="text-decoration-none" href="mailto:gomezbelen86@gmail.com" target="_blank">
+                    <img class="mail" src="../assets/images/mail.png" alt="mail">
+                </a>
+                <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493816839970"
+                    target="_blank">
+                    <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a class="text-decoration-none" href="https://github.com/Belugomez" target="_blank">
+                    <img class="github" src="../assets/images/github-orange.png" alt="github">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <p class="h5">David Acosta</p>
+                <a class="text-decoration-none" href="mailto:David98.arg@gmail.com" target="_blank">
+                    <img class="mail" src="../assets/images/mail.png" alt="mail">
+                </a>
+                <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493815801381"
+                    target="_blank">
+                    <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a class="text-decoration-none" href="https://github.com/Davidacosta98" target="_blank">
+                    <img class="github" src="../assets/images/github-orange.png" alt="github">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <p class="h5">Bernardo Villafañe</p>
+                <a class="text-decoration-none" href="mailto:bernardovillafane11@gmail.com" target="_blank">
+                    <img class="mail" src="../assets/images/mail.png" alt="mail">
+                </a>
+                <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493865266647"
+                    target="_blank">
+                    <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
+                </a>
+                <a class="text-decoration-none" href="https://github.com/Berni011" target="_blank">
+                    <img class="github" src="../assets/images/github-orange.png" alt="github">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-2">
+                <div class="container-dev">
+                    <p class="h5">Pablo Díaz</p>
+                    <a class="text-decoration-none" href="mailto:correodipablo@gmail.com" target="_blank">
+                        <img class="mail" src="../assets/images/mail.png" alt="mail">
+                    </a>
+                    <a class="text-decoration-none" href=" https://api.whatsapp.com/send/?phone=5493815408181"
+                        target="_blank">
+                        <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
+                    </a>
+                    <a class="text-decoration-none" href="https://github.com/Dizpab" target="_blank">
+                        <img class="github" src="../assets/images/github-orange.png" alt="github">
+                    </a>
+                </div>
+            </div>
+            <div class="pt-5 col-xs-12">
+                <p class="h7 text-secondary text-center">&#9400 copyright 2023-Todos los derechos reservados-Rolling
+                    Code-Team 4</p>
             </div>
         </div>
-    </nav>
-</header>
-  <h1>Recomendación de la Semana</h1>
-  <h3>Asado</h3>
-  <img src="../assets/images/parrilla-argentina-1-pqgnc4wk45rp4a6qt6le1mohlb05ztc7wsz7qllxs0.jpg" alt="" class="imgpages"/> <br>
-  <p>
-    Descripcion del Plato : En la mayoría de los casos se realiza a base de carne vacuna. Los cortes más utilizados son
-    el asado de tira y el vacío. Pero siempre acompañados de achuras: mollejas, chinchulines, riñones, morcillas y
-    chorizos, todo sobre la parrilla caliente por las brazas.
-  </p>
-  <div class="boton">
-    <a href="./free-page.html"><button type="button" class="btn btn-secondary btn-sm btn-modified">Volver</button></a>
-    <a href="./historia.html"><button type="button" class="btn btn-secondary btn-sm btn-modified">Historia</button></a>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-    <footer>
-      <div class="row p-5 pb-1 bg-dark text-white">
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <div class="footer-title">
-                  <p class="h2">Tu Sabor Team</p>
-              </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Erika Cruz Vallejo</p>
-              <a class="text-decoration-none" href="mailto:erikajohanacruzvallejo@gmail.com" target="_blank">
-                  <img class="mail" src="../assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493813014857"
-                  target="_blank">
-                  <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/ErikaCV" target="_blank">
-                  <img class="github" src="../assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Belén Gómez</p>
-              <a class="text-decoration-none" href="mailto:gomezbelen86@gmail.com" target="_blank">
-                  <img class="mail" src="../assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493816839970"
-                  target="_blank">
-                  <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Belugomez" target="_blank">
-                  <img class="github" src="../assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">David Acosta</p>
-              <a class="text-decoration-none" href="mailto:David98.arg@gmail.com" target="_blank">
-                  <img class="mail" src="../assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493815801381"
-                  target="_blank">
-                  <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Davidacosta98" target="_blank">
-                  <img class="github" src="../assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <p class="h5">Bernardo Villafañe</p>
-              <a class="text-decoration-none" href="mailto:bernardovillafane11@gmail.com" target="_blank">
-                  <img class="mail" src="../assets/images/mail.png" alt="mail">
-              </a>
-              <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=5493865266647"
-                  target="_blank">
-                  <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
-              </a>
-              <a class="text-decoration-none" href="https://github.com/Berni011" target="_blank">
-                  <img class="github" src="../assets/images/github-orange.png" alt="github">
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-2">
-              <div class="container-dev">
-                  <p class="h5">Pablo Díaz</p>
-                  <a class="text-decoration-none" href="mailto:correodipablo@gmail.com" target="_blank">
-                      <img class="mail" src="../assets/images/mail.png" alt="mail">
-                  </a>
-                  <a class="text-decoration-none" href=" https://api.whatsapp.com/send/?phone=5493815408181"
-                      target="_blank">
-                      <img class="wp" src="../assets/images/whatsapp.png" alt="whatsapp">
-                  </a>
-                  <a class="text-decoration-none" href="https://github.com/Dizpab" target="_blank">
-                      <img class="github" src="../assets/images/github-orange.png" alt="github">
-                  </a>
-              </div>
-          </div>
-          <div class="pt-5 col-xs-12">
-              <p class="h7 text-secondary text-center">&#9400 copyright 2023-Todos los derechos reservados-Rolling
-                  Code-Team 4</p>
-          </div>
-      </div>
-  </footer>
+    </footer>
 </body>
 
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
 </html>
