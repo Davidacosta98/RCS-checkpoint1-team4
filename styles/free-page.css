@@ -13,8 +13,12 @@
     margin: auto;
     width: 100%;
 } */
+*{
+  font-family: 'Roboto', sans-serif;
+}
 body{
  background-color: whitesmoke;
+ margin-top: 120px;
 }
 
 
@@ -64,12 +68,12 @@ body{
   width: 100%;
 }
 
-.btn{
+.btn-modified{
   border: 1px solid #F37335;
   border-radius: 0;
 }
 
-.btn{
+.btn-modified{
   background: #facf59;
   background: -webkit-linear-gradient(to right, #f7095c, #facf59);
   background: linear-gradient(to right, #f7905c, #facf59);
@@ -128,9 +132,14 @@ p{
 /* Navbar */
 
 .navbar{
-    padding: 1.75rem;
+    /* padding: 1.75rem; */
     /* background-color: rgb(240, 240, 240); */
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #343a40;
 }
 
 .navbar-collapse{
@@ -147,6 +156,7 @@ p{
 
 .form-control{
     margin-left: 1em;
+    width: 230px;
 }
 
 .btn-outline-success {
@@ -158,8 +168,13 @@ p{
   background-color: #f37335;
 }
 
+.boton-buscar button{
+  border-radius: 0.25rem;
+}
+
 footer {
   margin-top: 10%;
+  overflow: hidden;
 }
 
 .footer-title {

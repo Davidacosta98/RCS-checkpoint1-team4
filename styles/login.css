@@ -1,9 +1,21 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin-top: 150px;
+}
+
 /* Navbar */
 
 .navbar {
-    padding: 1.75rem;
+    /* padding: 1.75rem; */
     background-color: whitesmoke;
-
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #343a40;
 }
 
 .navbar-collapse{
@@ -20,6 +32,7 @@
 
 .form-control{
     margin-left: 1em;
+    width: 230px;
 }
 
 .btn-outline-success {
@@ -47,6 +60,7 @@
 
   footer {
     margin-top: 5%;
+    overflow: hidden;
   }
   
   .footer-title {
