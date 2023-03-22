@@ -12,19 +12,6 @@ body {
 }
 
 
-/*
-.container-description p {
-  background-color: rgb(238, 238, 231);
-  color: black;
-  border-radius: 20px;
-  border: 2px solid #f37335;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  margin: 50px 100px;
-}
-*/
-
-
 .accordion-body {
   background-color: rgb(238, 238, 231);
   border-bottom: 1px solid gray;
@@ -66,10 +53,6 @@ body {
 .accordion-button:not(.collapsed) {
   color: white;
 }
-
-
-
-
 
 
 
@@ -150,7 +133,7 @@ body {
 }
 
 .card-dev .back p {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 15px;
   letter-spacing: 1px;
 }
@@ -167,7 +150,6 @@ body {
 
   background-color: rgb(238, 238, 231);
   border-radius: 6px;
-  box-shadow: 0px 5px 10px #f37335;
   border: 2px solid #f37335;
   text-align: center;
   width: 90%;
