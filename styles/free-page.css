@@ -54,12 +54,19 @@ body{
 
 .card{
   padding-top: 10px;
-    border:solid 2px #F37335;
-    background-color: rgb(238, 238, 231)
+  border:solid 2px #F37335;
+  background-color: rgb(238, 238, 231);
+  width: 20%;
 }
 
 .card img{
-  height: 70%;
+  height: 300px;
+  width: 100%;
+}
+
+.btn{
+  border: 1px solid #F37335;
+  border-radius: 0;
 }
 
 .btn{
@@ -76,6 +83,10 @@ body{
     border: 3px;
     top: 30px;
     bottom: 30px;
+}
+
+.card-title{
+  font-weight: bold;
 }
 
 h1,h3{

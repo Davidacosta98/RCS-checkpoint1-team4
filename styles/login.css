@@ -44,3 +44,23 @@
   .btn-secondary:hover {
     background-color: #e62e0d;
   }
+
+  footer {
+    margin-top: 5%;
+  }
+  
+  .footer-title {
+    color: orange;
+  }
+  
+  .github{
+    width: 33px;
+  }
+  
+  .wp {
+    width: 35px;
+  }
+  
+  .mail {
+    width: 32px;
+  }
