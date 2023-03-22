@@ -48,6 +48,10 @@ input.form-control.me-2 {
 
 
 
+.nav-item:hover {
+  background-color: #f37335;
+}
+
 /* login */
 .bg {
     background-image: url(/assets/Images/emp-22.jpg);
@@ -61,6 +65,8 @@ input.form-control.me-2 {
   .btn-secondary:hover {
     background-color: #e62e0d;
   }
+  
+  .fw-bold
 
   .modal-body input {
     margin-left: 0;

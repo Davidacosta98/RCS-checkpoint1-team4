@@ -292,6 +292,11 @@ input.form-control.me-2 {
   margin-bottom: 0;
 }
 
+.nav-item:hover {
+  background-color: #f37335;
+}
+
+
 footer {
   margin-top: 5%;
   overflow: hidden;

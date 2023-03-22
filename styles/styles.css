@@ -113,7 +113,10 @@ body{
 .btn-outline-success:hover {
   background-color: #f37335;
 }
-
+.nav-item:hover {
+  background-color: #f37335;
+  font-family: alktra, cursive;
+}
 .carousel-item video{
   margin: 10px;
   width: 100%;
