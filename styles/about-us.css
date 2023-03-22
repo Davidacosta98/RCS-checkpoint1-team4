@@ -282,6 +282,13 @@ textarea {
   width: 230px;
 }
 
+.form-wallpaper{
+  background-image: url(../assets/images/wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .btn-outline-success {
   color: #f37335;
   border-color: #f37335;
