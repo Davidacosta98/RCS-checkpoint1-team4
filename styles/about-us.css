@@ -162,6 +162,7 @@ body {
 }
 
 .form-contact {
+
   background-color: rgb(238, 238, 231);
   border-radius: 6px;
   box-shadow: 0px 5px 10px #f37335;
@@ -181,7 +182,7 @@ body {
 }
 
 .controls {
-  /* font-family: "Times New Roman", Times, serif; */
+  
   font-size: 15px;
   background-color: whitesmoke;
   width: 100%;
@@ -196,7 +197,7 @@ body {
 }
 
 .form-contact h3 {
-  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'Alkatra', cursive;
   font-size: 25px;
   text-align: center;
   margin-bottom: 20px;
@@ -207,8 +208,8 @@ body {
 
 input,
 textarea {
-  /* font-family: "Times New Roman", Times, serif; */
-  font-size: 17px;
+  
+  font-size: 15px;
   width: 100%;
   margin-bottom: 30px;
   padding: 10px;
@@ -238,9 +239,13 @@ textarea {
   border: 2px solid #f37335;
   padding: 10px;
   color: black;
+
+  font-weight: bold;
 }
 
+
 .button:hover {
+  background:#F37335 ;
   cursor: pointer;
 }
 
